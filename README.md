@@ -91,15 +91,6 @@ Une extension de navigateur Chrome/Edge offrant une collection complète d'outil
 4. Cliquez sur **Charger l'extension non empaquetée**
 5. Sélectionnez le dossier du projet
 
-### Génération des icônes (optionnel)
-
-Si vous souhaitez régénérer les icônes :
-
-```bash
-pip install Pillow
-python generate-icons.py
-```
-
 ## 🎨 Interface
 
 - **Design moderne** avec dégradés bleus
@@ -117,7 +108,6 @@ Raccourcis développeur/
 ├── popup.js               # Logique principale
 ├── content.js             # Script de contenu (pipette de couleur)
 ├── styles.css             # Styles de l'interface
-├── generate-icons.py      # Script de génération d'icônes
 └── icons/                 # Dossier des icônes
     ├── icon.svg
     ├── icon16.png
